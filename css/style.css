@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-Bold.woff2") format("woff2"), url("/fonts/Inter-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-Light.woff2") format("woff2"), url("/fonts/Inter-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-Regular.woff2") format("woff2"), url("/fonts/Inter-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-SemiBold.woff2") format("woff2"), url("/fonts/Inter-SemiBold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter";
+}
+
+.header__container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.header__content {
+  padding: 24px 15px 0px 15px;
+}
+.header__contact-wrapper {
+  display: flex;
+  justify-content: right;
+}
+.header__contact {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  padding-right: 34px;
+}
+.header__contact img {
+  padding-top: 2px;
+}
+.header__contact-number {
+  color: #1b1a1a;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  padding-top: 6px;
+}
+.header__contact-order {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  width: 214px;
+  height: 34px;
+  border-radius: 4px;
+  background: #e13636;
+  padding: 3px 0px 3px 0px;
+  text-align: center;
+}
+.header__nav {
+  display: flex;
+}
+.header__nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: 19px;
+  margin-top: 30px;
+  align-items: center;
+}
+.header__nav-link {
+  background: url("/img/header/arrow.svg") 100% center no-repeat;
+  padding-right: 31px;
+}
+.header__nav-link a {
+  text-decoration: none;
+  color: #1b1a1a;
+  font-size: 24px;
+  letter-spacing: 0.24px;
+}/*# sourceMappingURL=style.css.map */
